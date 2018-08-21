@@ -1,0 +1,321 @@
+menus:
+  lobbymenu:
+    slotamount: 18
+    slots:
+      2:
+        block: SMOOTH_BRICK
+        command: cr join 1
+        name: '&3Game 1'
+        description:
+          lineamount: 2
+          lines:
+            line1: '&5Click to join game 1!'
+            line2: '&5Classic prison map.'
+      4:
+        block: SNOW_BLOCK
+        command: cr join 2
+        name: '&3Game 2'
+        description:
+          lineamount: 2
+          lines:
+            line1: '&5Click to join game 2!'
+            line2: '&5Custom ice map made by ProSl3nderMan'
+      6:
+        block: LAVA_BUCKET
+        command: cr join 3
+        name: '&3Game 3'
+        description:
+          lineamount: 2
+          lines:
+            line1: '&5Click to join game 3!'
+            line2: '&5Custom lava parkour map made by staff!'
+      10:
+        block: NETHER_STAR
+        command: cr place
+        name: '&3Game List'
+        description:
+          lineamount: 2
+          lines:
+            line1: '&5Click to get the numbers'
+            line2: '&5of how much people are in each game!'
+      13:
+        block: CHEST
+        command: stats
+        name: '&3Stats'
+        description:
+          lineamount: 1
+          lines:
+            line1: '&5Click to get your stats!'
+      16:
+        block: EMPTY_MAP
+        command: stats top
+        name: '&3Leaderboards'
+        description:
+          lineamount: 2
+          lines:
+            line1: '&5Click to view the leaderboards'
+            line2: '&5of cops and robbers!'
+  igmenu:
+    slotamount: 18
+    slots:
+      2:
+        block: DIAMOND_SWORD
+        command: cr join cops
+        name: '&3Cops'
+        description:
+          lineamount: 1
+          lines:
+            line1: '&5Click to join cops!'
+      4:
+        block: ARROW
+        command: cr leave
+        name: '&3Leave'
+        description:
+          lineamount: 1
+          lines:
+            line1: '&5Click to leave the game!'
+      6:
+        block: BOOK
+        command: cr cops list
+        name: '&3Cops List'
+        description:
+          lineamount: 1
+          lines:
+            line1: '&5Click to see who is the cop!'
+      10:
+        block: NETHER_STAR
+        command: cr place
+        name: '&3Game List'
+        description:
+          lineamount: 2
+          lines:
+            line1: '&5Click to get the numbers'
+            line2: '&5of how much people are in each game!'
+      13:
+        block: CHEST
+        command: stats
+        name: '&3Stats'
+        description:
+          lineamount: 1
+          lines:
+            line1: '&5Click to get your stats!'
+      16:
+        block: EMPTY_MAP
+        command: stats top
+        name: '&3Leaderboards'
+        description:
+          lineamount: 2
+          lines:
+            line1: '&5Click to view the leaderboards'
+            line2: '&5of cops and robbers!'
+  modmenu:
+    slotamount: 54
+    slots:
+      2:
+        block: SMOOTH_BRICK
+        command: mod tp 1
+        name: 'Mod Tp 1'
+        description:
+          lineamount: 1
+          lines:
+            line1: '&5Click to teleport to game 1!'
+      4:
+        block: SNOW_BLOCK
+        command: mod tp 2
+        name: 'Mod Tp 2'
+        description:
+          lineamount: 1
+          lines:
+            line1: '&5Click to teleport to game 2!'
+      6:
+        block: LAVA_BUCKET
+        command: mod tp 3
+        name: 'Mod Tp 3'
+        description:
+          lineamount: 1
+          lines:
+            line1: '&5Click to teleport to game 3'
+      11:
+        block: SMOOTH_BRICK
+        command: mod end 1
+        name: 'Mod End 1'
+        description:
+          lineamount: 1
+          lines:
+            line1: '&5Click to end game 1!'
+      13:
+        block: SNOW_BLOCK
+        command: mod end 2
+        name: 'Mod End 2'
+        description:
+          lineamount: 1
+          lines:
+            line1: '&5Click to end game 2!'
+      15:
+        block: LAVA_BUCKET
+        command: mod end 3
+        name: 'Mod End 3'
+        description:
+          lineamount: 1
+          lines:
+            line1: '&5Click to end game 3!'
+      20:
+        block: SMOOTH_BRICK
+        command: mod kick 1
+        name: 'Mod Kick 1'
+        description:
+          lineamount: 1
+          lines:
+            line1: '&5Click to kick someone from game 1!'
+      22:
+        block: SNOW_BLOCK
+        command: mod kick 2
+        name: 'Mod Kick 2'
+        description:
+          lineamount: 1
+          lines:
+            line1: '&5Click to kick someone from game 2!'
+      24:
+        block: LAVA_BUCKET
+        command: mod kick 3
+        name: 'Mod Kick 3'
+        description:
+          lineamount: 1
+          lines:
+            line1: '&5Click to kick someone from game 1!'
+      29:
+        block: ENDER_PEARL
+        command: mod vanish
+        name: 'Vanish'
+        description:
+          lineamount: 1
+          lines:
+            line1: '&5Click to turn invis!'
+      31:
+        block: IRON_INGOT
+        command: mod ironfist
+        name: 'Iron Fist'
+        description:
+          lineamount: 2
+          lines:
+            line1: '&5Click to rid a player'
+            line2: '&5of iron fist glitch!'
+      33:
+        block: EYE_OF_ENDER
+        command: mod unvanish
+        name: 'Unvanish'
+        description:
+          lineamount: 1
+          lines:
+            line1: '&5Click to become visiable!'
+      49:
+        block: IRON_FENCE
+        command: mod opencell
+        name: 'Open Cell'
+        description:
+          lineamount: 1
+          lines:
+            line1: '&5Click to open cells in all games!'
+  imenu:
+    slotamount: 36
+    slots:
+      2:
+        block: SKULL_ITEM
+        command: hats
+        name: '&6Hats'
+        description:
+          lineamount: 1
+          lines:
+            line1: '&eClick to access your hats'
+      6:
+        block: GLASS
+        command: trails
+        name: '&2Trails'
+        description:
+          lineamount: 1
+          lines:
+            line1: '&aClick to access your trails'
+      13:
+        block: EMERALD
+        command: shop
+        name: '&5Shop'
+        description:
+          lineamount: 1
+          lines:
+            line1: '&dClick to open the shop'
+      20:
+        block: BOW
+        command: gear
+        name: '&3Coming soon!'
+        description:
+          lineamount: 1
+          lines:
+            line1: '&bExpect very soon'
+      24:
+        block: ARMOR_STAND
+        command: buddys
+        name: '&4Buddys!'
+        description:
+          lineamount: 1
+          lines:
+            line1: '&cClick to access your buddys'
+      31:
+        block: ENCHANTMENT_TABLE
+        command: chests
+        name: '&1Crates'
+        description:
+          lineamount: 1
+          lines:
+            line1: '&bClick to view what crates you have!'
+  hatsmenu:
+    hats:
+    - BEACON
+    - TNT
+    - DIAMOND_BLOCK
+    - GOLD_BLOCK
+    - EMERALD_BLOCK
+    - GLOWSTONE
+    - JACK_O_LANTERN
+    - FURNACE
+    - HAY_BLOCK
+    - SKULL_ITEM
+    - PACKED_ICE
+    - COAL_BLOCK
+    - BEDROCK
+    - LOG
+    - WOOL
+  trailsmenu:
+    trails:
+    - GLASS
+    - PISTON_STICKY_BASE
+    - MOSSY_COBBLESTONE
+    - ICE
+    - ENDER_STONE
+    - LEAVES
+    - WORKBENCH
+    - PUMPKIN
+    - DIAMOND_BLOCK
+    - GOLD_BLOCK
+    - REDSTONE_ORE
+    - EMERALD_ORE
+    - QUARTZ_ORE
+    - MELON_BLOCK
+    - GLOWSTONE
+    - SLIME_BLOCK
+  buddymenu:
+    buddys:
+    - 'Xilicks/Xilicks'
+    - 'mussonking/MussonKing'
+    - 'ZachWarnerHD/Popcorn'
+    - 'food/Hamburger'
+    - 'GameNilo/Computer'
+    - 'xXJDerekXx/Diamond_block'
+    - 'Eye/Eyeball'
+    - 'Lion/Horse'
+    - 'ThomAnn100/Dog'
+    - 'Langdon/Monkey'
+    - 'Pokemon/Ash_Ketchum'
+    - 'Mario/Mario'
+    - 'BobaFett/Boba_Fett'
+    - 'jscherry/Master_Chief'
+    - 'NF__RealMusic/Slender_Minion'

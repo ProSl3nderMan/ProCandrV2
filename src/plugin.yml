@@ -1,0 +1,32 @@
+name: CopsAndRobbers
+version: 0.1
+main: me.ProSl3nderMan.Main.Main
+commands:
+    cr:
+        description: Cops and robbers main command.
+    set:
+        description: Cops and robbers map setting.
+    mod:
+        description: Mod executor.
+    open:
+        description: Used to open cells.
+    cop:
+        description: Used to kick a cop.
+    start:
+        description: Used to see all the commands you have to do at the start of using this plugin.
+    game:
+        description: Used to create a new game.
+    stats:
+        description: Used to check your stats or a players stats.
+    hats:
+        description: Used to view your hats.
+    trails:
+        description: Used to view your trails.
+    buddys:
+        description: Used to view your buddys.
+    shop:
+        description: Used for the shop.
+    gears:
+        description: Used to view your gears.
+    chests:
+        description: Used to view your crates.
